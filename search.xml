@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Jdk安装</title>
-    <url>/2024/07/30/Jdk%E5%AE%89%E8%A3%85/</url>
+    <title>Java Linux安装</title>
+    <url>/2024/07/30/Java%20Linux%E5%AE%89%E8%A3%85/</url>
     <content><![CDATA[<h1 id="1-下载安装包并上传到服务器"><a href="#1-下载安装包并上传到服务器" class="headerlink" title="1.下载安装包并上传到服务器"></a>1.下载安装包并上传到服务器</h1><p><a href="https://www.oracle.com/cn/java/technologies/downloads/#java21">Java Downloads | Oracle 中国</a></p>
 <h1 id="2-创建安装文件夹"><a href="#2-创建安装文件夹" class="headerlink" title="2.创建安装文件夹"></a>2.创建安装文件夹</h1><figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="built_in">mkdir</span> /usr/local/java/</span><br><span class="line"><span class="built_in">cd</span> /usr/local/java/</span><br></pre></td></tr></table></figure>
 
@@ -18,7 +18,7 @@
 
 ]]></content>
       <categories>
-        <category>Linux软件安装</category>
+        <category>Java</category>
       </categories>
       <tags>
         <tag>Java</tag>
@@ -40,16 +40,17 @@
 
 ]]></content>
       <categories>
-        <category>软件推荐</category>
+        <category>内网穿透</category>
       </categories>
       <tags>
+        <tag>系统工具</tag>
         <tag>内网穿透</tag>
         <tag>Frp</tag>
       </tags>
   </entry>
   <entry>
-    <title>Nginx安装</title>
-    <url>/2024/07/31/Nginx%E5%AE%89%E8%A3%85/</url>
+    <title>Nginx Linux安装</title>
+    <url>/2024/07/31/Nginx%20Linux%E5%AE%89%E8%A3%85/</url>
     <content><![CDATA[<h1 id="1-下载并上传到服务器"><a href="#1-下载并上传到服务器" class="headerlink" title="1.下载并上传到服务器"></a>1.下载并上传到服务器</h1><p><a href="https://nginx.org/en/download.html">nginx: download</a></p>
 <h1 id="2-解压"><a href="#2-解压" class="headerlink" title="2.解压"></a>2.解压</h1><figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="built_in">cd</span> /home/hana</span><br><span class="line">tar -vzxf nginx-1.22.0.tar.gz</span><br><span class="line"><span class="built_in">cd</span> nginx-1.22.0</span><br></pre></td></tr></table></figure>
 
@@ -74,7 +75,7 @@
 
 ]]></content>
       <categories>
-        <category>Linux软件安装</category>
+        <category>Nginx</category>
       </categories>
       <tags>
         <tag>系统环境</tag>
